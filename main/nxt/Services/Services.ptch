@@ -3,4 +3,4 @@ appfile <services.jar>;
 # Fix mounting
 copy "%here%/server" "%smali%/com/android/server";
 # SCREEN_DIM_MINIMUM_REDUCTION
-replaceinfile "%smali%/com/miui/server/power/DisplayPowerController.smali" "add-int/lit8 v6, v3, -0xa" "add-int/lit8 v6, v3, -0x1";
+replaceinfile "%smali%/com/android/server/power/DisplayPowerController.smali" "add-int/lit8 v6, v3, -0xa" "add-int/lit8 v6, v3, -0x1";
